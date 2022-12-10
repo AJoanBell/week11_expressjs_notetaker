@@ -58,6 +58,13 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Screenshots of deployed application
 
+Notetaker landing page
+
+<img width="1749" alt="Notetaker_landingpage" src="https://user-images.githubusercontent.com/36496885/206877813-efc33cdb-d268-46d5-896f-9a19b1aa378f.png">
+
+Notetaker Working Page
+
+<img width="1744" alt="Notetaker_working" src="https://user-images.githubusercontent.com/36496885/206877821-ab349b80-3054-49c3-ae87-2ff78a7c3ed1.png">
 
 
 ## Credits
