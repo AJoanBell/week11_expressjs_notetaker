@@ -1,10 +1,10 @@
-# week11_expressjs_notetaker
+# Week 11 Challenge - Expressjs Notetaker
 
 ## Your Task
 
-Your assignment is to modify starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+The assignment is to modify starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
 
-The application’s front end has already been created. It's your job to build the back end, connect the two, and then deploy the entire application to Heroku.
+The application’s front end has already been created. It's my job to build the back end, connect the two, and then deploy the entire application to Heroku.
 
 
 ## User Story
@@ -34,12 +34,42 @@ WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
 
+## Planning
+
+1. Clone starter code here: https://github.com/coding-boot-camp/miniature-eureka
+
+2. Setup files
+
+3. Create HTML routes (GET /notes should return the notes.html file.) & (GET * should return the index.html file.)
+
+4. Create API routes (GET /api/notes should read the db.json file and return all saved notes as JSON.) and & (POST /api/notes should receive a new note to save on the request body, add it to the db.json file, and then return the new note to the client. You'll need to find a way to give each note a unique id when it's saved (look into npm packages that could do this for you).)
+
+5. add in js to have the save button, new notes button, and clicking on the already created notes on the left hand side to be functioning.
+
+6. BONUS -> using the uuid make it so you can also delete / remove the saved notes.
 
 
 ## Review
 
-You are required to submit BOTH of the following for review:
+* The URL of the functional, deployed application: https://week11-expressjs-notetaker.herokuapp.com/
 
-* The URL of the functional, deployed application.
+* The URL of the GitHub repository, with a unique name and a README describing the project: https://github.com/AJoanBell/week11_expressjs_notetaker
 
-* The URL of the GitHub repository, with a unique name and a README describing the project.
+## Screenshots of deployed application
+
+
+
+## Credits
+
+Starter code used: https://github.com/coding-boot-camp/miniature-eureka
+
+## Key Learnings
+
+Server set-up
+APIs
+Express.js and persistent storage
+The fs module
+HTML Routes
+Node.js
+Insomnia
+Heroku.
