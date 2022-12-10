@@ -48,6 +48,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 6. BONUS -> using the uuid make it so you can also delete / remove the saved notes.
 
+7. Deploy to Heroku
 
 ## Review
 
